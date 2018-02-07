@@ -1,0 +1,20 @@
+{
+  "name": "emissary-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:Vinchenso/emissary-site.git",
+  "author": "Vinchenso <chensok@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "2"
+  }
+}

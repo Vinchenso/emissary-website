@@ -1,12 +1,22 @@
+# frozen_string_literal: true
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 activate :livereload
 activate :directory_indexes
+activate :imageoptim
+
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ?
+         './node_modules/webpack/bin/webpack.js --bail -p' :
+         './node_modules/webpack/bin/webpack.js --watch -d --progress --color',
+         source: 'build',
+         latency: 1
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
