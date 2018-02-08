@@ -52,7 +52,7 @@ module.exports = {
   },
   output: {
     path: __dirname + '/build/',
-    filename: 'js/[name].bundle.js',
+    filename: 'javascripts/[name].bundle.js',
   },
 
   plugins: [
@@ -60,7 +60,7 @@ module.exports = {
       minimize: true,
       debug: false
     }),
-    new ExtractTextPlugin('css/[name].bundle.css'),
+    new ExtractTextPlugin('stylesheets/[name].bundle.css'),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       comments: false, // remove comments
