@@ -31,7 +31,7 @@ set :fonts_dir, './fonts'
 set :images_dir, './images'
 set :js_dir, './javascripts'
 
-page '/', layout: false
+# page '/', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

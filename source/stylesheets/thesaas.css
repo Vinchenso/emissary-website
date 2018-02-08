@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Dosis:300,600");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600,800|Dosis:300,600");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #535353;
   font-weight: 300;
   font-size: 0.9375rem;
@@ -26,7 +26,7 @@ body {
 }
 
 button, input, optgroup, select, textarea {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
 
@@ -82,7 +82,7 @@ small,
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Dosis", "Open Sans", sans-serif;
+  font-family: "Raleway", "Dosis" , sans-serif;
   font-weight: 600;
   color: #37404d;
   letter-spacing: 1px;
@@ -122,14 +122,14 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
 }
 
 h6, .h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0;
   font-weight: 400;
   font-size: 0.9375rem;
 }
 
 .heading-alt {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   letter-spacing: 0;
 }
@@ -269,7 +269,7 @@ pre {
 }
 
 .typed-cursor {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
   vertical-align: text-bottom;
   opacity: 1;
@@ -1014,7 +1014,7 @@ video {
   padding-left: 20px;
   padding-right: 20px;
   background-color: #fcfdfe;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0;
 }
 
@@ -3563,7 +3563,7 @@ button:focus {
 }
 
 .lity-close {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
   opacity: 0.6;
   padding: 0.5rem 1rem;
@@ -3574,7 +3574,7 @@ button:focus {
 }
 
 .lity-close:hover, .lity-close:focus, .lity-close:active, .lity-close:visited {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
   opacity: 1;
   padding: 0.5rem 1rem;
@@ -4477,7 +4477,7 @@ textarea.form-control-sm {
 }
 
 .shop-item .item-details .item-price {
-  font-family: "Dosis", "Open Sans", sans-serif;
+  font-family: "Dosis", "Raleway", sans-serif;
   font-weight: 100;
   font-size: 25px;
   letter-spacing: 1px;
@@ -9104,12 +9104,12 @@ a.text-danger:hover, a.text-danger:focus {
 
 .font-body,
 .font-opensans {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .font-title,
 .font-raleway {
-  font-family: "Dosis", "Open Sans", sans-serif;
+  font-family: "Dosis", "Raleway", sans-serif;
 }
 
 .fs-8 {
