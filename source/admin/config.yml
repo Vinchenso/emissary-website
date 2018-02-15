@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Vinchenso/emissary-website
+  name: git-gateway
   branch: staging # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
