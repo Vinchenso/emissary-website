@@ -1,5 +1,5 @@
 ---
-title: Emissary | Coming Soon
+title: Automated Business SMS software | Emissary South Africa 
 ---
 
 <html>
@@ -8,9 +8,9 @@ title: Emissary | Coming Soon
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Emissary" %></title>
-
 
     <link rel="stylesheet" href="stylesheets/main.bundle.css" as="style">
 
@@ -19,30 +19,562 @@ title: Emissary | Coming Soon
     <link rel="icon" href="images/favicon.png">
 
   </head>
-  <body>
+  <body id='home'>
+
+    <%= partial 'partials/topbar' %>
 
     <!-- Header -->
-    <header class="header header-inverse h-fullscreen py-0" style="background-image: url(assets/img/bg-laptop.jpg);" data-overlay="7">
-      <div class="container text-center">
+    <header class="header h-fullscreen" style="background-image: linear-gradient(150deg, #fdfbfb 0%, #eee 100%);">
+      <div class="container-wide">
 
-        <div class="row h-full align-items-center">
-          <div class="col-12 col-lg-8 offset-lg-2">
-            <img class='default-logo' src="images/logo.png" alt="logo">
+        <div class="row h-full align-items-center text-center text-lg-left">
 
+          <div class="offset-1 col-10 col-lg-4 offset-lg-1">
+            <h1>You didn't go into business to sit on the phone and beg clients to come back</h1>
+            <br>
+            <p class="lead mx-auto">Let's send out automated, personalised SMSs to clients, so you can spend your time elsewhere and get paid!</p>
+            <br>
+            <a class="btn btn-lg btn-primary" href="page-register.html">Get Started</a>
+          </div>
 
+          <div class="col-12 col-lg-6 offset-lg-1 img-outside-right hidden-md-down">
+            <img class="mt-80" src="images/header_mockup.png" alt="...">
           </div>
         </div>
-
       </div>
     </header>
     <!-- END Header -->
 
 
+
+
+    <!-- Main container -->
+    <main class="main-content">
+
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Features
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section" id="section-features">
+        <div class="container">
+          <header class="section-header">
+            <small>Features</small>
+            <h2>Increase Revenue and Customer engagement</h2>
+            <hr>
+          </header>
+
+
+          <div class="row gap-y align-items-center">
+            <div class="col-12 col-md-5 text-center">
+              <img src="assets/img/demo/slack/drag.png" alt="...">
+            </div>
+
+            <div class="col-12 offset-md-1 col-md-6">
+              <h5>No need to buy special hardware or pay pricey consultants</h5>
+              <p>All you need is a computer or mobile device to get going. There is no training needed. It is completely online, so you can engage with customers any where you want</p>
+            </div>
+          </div>
+
+
+          <hr class="w-200 my-90">
+
+
+          <div class="row gap-y align-items-center">
+            <div class="col-12 col-md-6">
+              <h5>Works everywhere you go</h5>
+              <p>Everything in Slack—messages, notifications, files, and all—is automatically indexed and archived so that you can have it at your fingertips whenever you want. Slack also indexes the content of every file so you can search within PDFs, Word documents, Google docs, and more. With one search box and a set of powerful search operators, you can slice and dice your way to that one message in your communication haystack.</p>
+            </div>
+
+            <div class="col-12 offset-md-1 col-md-5 text-center">
+              <img src="assets/img/demo/slack/everywhere.png" alt="...">
+            </div>
+          </div>
+
+
+          <hr class="w-200 my-90">
+
+
+          <div class="row gap-y align-items-center">
+            <div class="col-12 col-md-5 text-center">
+              <img src="assets/img/demo/slack/tools.png" alt="...">
+            </div>
+
+            <div class="col-12 offset-md-1 col-md-6">
+              <h5>All your tools in one place.</h5>
+              <p>Connect all the tools you use to Slack and avoid all that constant switching between apps. Set up your integration so that you get all your notifications directly within Slack—from support requests, code check-ins, and error logs to sales leads—all of them searchable in one central archive.</p>
+              <p>If you use any services like Google Drive, Dropbox, or Box, just paste the link and that document is immediately in sync and searchable too.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Features
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section bg-gray">
+        <div class="container">
+          <div class="row gap-y">
+
+            <div class="col-12 col-lg-4">
+              <div class="card card-bordered text-center">
+                <div class="card-block">
+                  <p><i class="icon-layers fs-50 text-muted"></i></p>
+                  <h4 class="card-title">Broadcasts (Bulk Messaging)</h4>
+                  <p class="card-text">Organize your team conversations in open channels. Make a channel for a project, a team, or everyone has a transparent view.</p>
+                  <a class="fw-600 fs-12" href="#">Read more <i class="fa fa-chevron-right fs-9 pl-5"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-lg-4">
+              <div class="card card-bordered text-center">
+                <div class="card-block">
+                  <p><i class="icon-chat fs-50 text-muted"></i></p>
+                  <h4 class="card-title">2-Way Private Messageing</h4>
+                  <p class="card-text">Send messages directly to another and any person or to a small group of people for more focused conversations.</p>
+                  <a class="fw-600 fs-12" href="#">Read more <i class="fa fa-chevron-right fs-9 pl-5"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-lg-4">
+              <div class="card card-bordered text-center">
+                <div class="card-block">
+                  <p><i class="icon-mic fs-50 text-muted"></i></p>
+                  <h4 class="card-title">Unlimited Message Templates and Client Contacts</h4>
+                  <p class="card-text">Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message.</p>
+                  <a class="fw-600 fs-12" href="#">Read more <i class="fa fa-chevron-right fs-9 pl-5"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-lg-4">
+              <div class="card card-bordered text-center">
+                <div class="card-block">
+                  <p><i class="icon-mic fs-50 text-muted"></i></p>
+                  <h4 class="card-title">Automation System</h4>
+                  <p class="card-text">Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message.</p>
+                  <a class="fw-600 fs-12" href="#">Read more <i class="fa fa-chevron-right fs-9 pl-5"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card card-bordered text-center">
+                <div class="card-block">
+                  <p><i class="icon-mic fs-50 text-muted"></i></p>
+                  <h4 class="card-title">Unlimited Segmentation and Tags</h4>
+                  <p class="card-text">Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message.</p>
+                  <a class="fw-600 fs-12" href="#">Read more <i class="fa fa-chevron-right fs-9 pl-5"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="card card-bordered text-center">
+                <div class="card-block">
+                  <p><i class="icon-mic fs-50 text-muted"></i></p>
+                  <h4 class="card-title">Monthly Reporting</h4>
+                  <p class="card-text">Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message.</p>
+                  <a class="fw-600 fs-12" href="#">Read more <i class="fa fa-chevron-right fs-9 pl-5"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Reclaim your workday
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section text-center">
+        <div class="container">
+          <header class="section-header">
+            <h2>Ideal For most business segments</h2>
+            <hr>
+            <p class="lead">Holisticly implement fully tested process improvements rather than dynamic internal.</p>
+          </header>
+          <div class="row gap-y">
+
+            <div class="col-12 offset-md-2 col-md-8 mb-30">
+              <img src="assets/img/feature-tablet.png" alt="..." data-aos="fade-up" data-aos-duration="2000" class="aos-init aos-animate">
+            </div>
+
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="flexbox gap-items-4">
+                <div>
+                  <i class="fa fa-hospital-o fs-25 pt-4 text-secondary"></i>
+                </div>
+
+                <div>
+                  <h5>Medical</h5>
+                  <p>Your website works on any device: desktop, tablet or mobile.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="flexbox gap-items-4">
+                <div>
+                  <i class="fa fa-gavel  fs-25 pt-4 text-secondary"></i>
+                </div>
+
+                <div>
+                  <h5>Professional Services</h5>
+                  <p>You can easily read, edit, and write your own code, or change everything.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="flexbox gap-items-4">
+                <div>
+                  <i class="fa fa-diamond fs-25 pt-4 text-secondary"></i>
+                </div>
+
+                <div>
+                  <h5>Salon and Beauty</h5>
+                  <p>There is a bunch of useful and necessary elements for developing your website.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="flexbox gap-items-4">
+                <div>
+                  <i class="fa fa-futbol-o  fs-25 pt-4 text-secondary"></i>
+                </div>
+
+                <div>
+                  <h5>Fitness and Recreation</h5>
+                  <p>You can find our code well organized, commented and readable.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="flexbox gap-items-4">
+                <div>
+                  <i class="fa fa-file-text-o fs-25 pt-4 text-secondary"></i>
+                </div>
+
+                <div>
+                  <h5>Others Services</h5>
+                  <p>As you can see in the source code, we provided a comprehensive documentation.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="flexbox gap-items-4">
+                <div>
+                  <i class="fa fa-graduation-cap fs-25 pt-4 text-secondary"></i>
+                </div>
+
+                <div>
+                  <h5>Tutoring</h5>
+                  <p>When you purchase this template, you'll freely receive future updates.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12 text-center">
+              <br><br>
+              <a class="btn btn-lg btn-primary" href="#">Increase my revenue!</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Pricing
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section bg-gray" id="section-pricing">
+        <div class="container">
+
+          <header class="section-header">
+            <h2>Affordable Pricing</h2>
+            <hr>
+            <p class="lead">Emissary provides a platform for your small to medium-sized companies.</p>
+          </header>
+
+
+          <div class="text-center mb-70">
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-round btn-outline btn-dark w-150 active">
+                <input type="radio" name="pricing" value="monthly" autocomplete="off" checked> Monthly
+              </label>
+            </div>
+          </div>
+
+
+          <div class="row gap-y text-center">
+
+            <div class="col-12 col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">Lite</p>
+                <br>
+                <h2 class="price">249</h2>
+                <p><small class="opacity-50">Forever!</small></p>
+
+                <small>Searchable messages up to 10K</small><br>
+                <small>10 apps or service integrations</small><br>
+                <small>5GB total file storage for the team</small><br>
+                <br>
+                <p class="text-center py-3"><a class="btn btn-primary" href="#">Get started</a></p>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">Standard</p>
+                <br>
+                <h2 class="price text-success">
+                  <span class="price-unit">R</span>
+                  <span data-bind-radio="pricing" data-monthly="499" data-yearly="499">499</span>
+                </h2>
+                <p><small class="opacity-50" data-bind-radio="pricing" data-monthly="Per month" data-yearly="Per year">Per month</small></p>
+
+                <small>Unlimited searchable message archives</small><br>
+                <small>Unlimited apps and service integrations</small><br>
+                <small>10GB file storage per team member</small><br>
+                <br>
+                <p class="text-center py-3"><a class="btn btn-success" href="#">Get started</a></p>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">Plus</p>
+                <br>
+                <h2 class="price">
+                  <span class="price-unit">R</span>
+                  <span data-bind-radio="pricing" data-monthly="799" data-yearly="799">799</span>
+                </h2>
+                <p><small class="opacity-50" data-bind-radio="pricing" data-monthly="Per user/month" data-yearly="Per user/year">Per user/month</small></p>
+
+                <small>Everything in Free & Standard, and</small><br>
+                <small>SAML-based single sign-on (SSO)</small><br>
+                <small>Compliance Exports of all messages</small><br>
+                <br>
+                <p class="text-center py-3"><a class="btn btn-primary" href="#">Get started</a></p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Partners
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section bg-gray py-40">
+        <div class="container">
+
+          <div class="partner partner-sm">
+            <img src="assets/img/partner-1.png" alt="...">
+            <img src="assets/img/partner-2.png" alt="...">
+            <img src="assets/img/partner-3.png" alt="...">
+            <img src="assets/img/partner-4.png" alt="...">
+            <img src="assets/img/partner-5.png" alt="...">
+            <img src="assets/img/partner-6.png" alt="...">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | FAQ
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section" id="section-faq">
+        <div class="container">
+          <header class="section-header">
+            <small>Faq</small>
+            <h2>Frequently Asked Questions</h2>
+            <hr>
+            <p class="lead">Drop us an email if you couldn't find an answert to your question in the following list.</p>
+          </header>
+
+
+          <div class="row gap-y gap-3">
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">What happens when my sms credits run out?</h6>
+              <p>It is a collection of layouts, design patterns, components, and guidelines for creating admin templates, SaaS startups, and complex dashboards.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">What is the sign up process?</h6>
+              <p>It is a collection of layouts, design patterns, components, and guidelines for creating admin templates, SaaS startups, and complex dashboards.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Do you offer free plans?</h6>
+              <p>We accept all major credit cards.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Is my data safe?</h6>
+              <p>Yes. Go to the billing section of your dashboard and update your payment information.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Is this Hipaa compliant?</h6>
+              <p>You can cancel your subscription at any time. Cancelling your plan comes into effect the following month.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Can I cancel anytime?</h6>
+              <p>Unfortunately, not at this time! Please try our free plan for a while to make sure Helpato is what you want.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">What if I want to change plans?</h6>
+              <p>It's quick and easy to switch between our different pricing plans from your dashboard.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">How long are your contracts?</h6>
+              <p>You can upgrade, downgrade, or cancel your monthly account at any time with no further obligation.</p>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <h6 class="fw-400">Other questions?</h6>
+              <p>We're always available at support@domain.com</p>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+
+
+    </main>
+    <!-- END Main container -->
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+          <div class="col-12 col-lg-3">
+            <p class="text-center text-lg-left">
+              <img src="images/logo_side--400x200.png" class="topbar_logo" alt="logo">
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <ul class="nav nav-primary nav-hero">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="block-feature.html">Features</a>
+              </li>
+              <li class="nav-item hidden-sm-down">
+                <a class="nav-link" href="page-pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item hidden-sm-down">
+                <a class="nav-link" href="page-contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <%# <div class="col-12 col-lg-3"> %>
+          <%#   <div class="social text-center text-lg-right"> %>
+          <%#     <a class="social-facebook" href="https://www.facebook.com/thethemeio"><i class="fa fa-facebook"></i></a> %>
+          <%#     <a class="social-twitter" href="https://twitter.com/thethemeio"><i class="fa fa-twitter"></i></a> %>
+          <%#     <a class="social-instagram" href="https://www.instagram.com/thethemeio/"><i class="fa fa-instagram"></i></a> %>
+          <%#     <a class="social-dribbble" href="https://dribbble.com/thethemeio"><i class="fa fa-dribbble"></i></a> %>
+          <%#   </div> %>
+          <%# </div> %>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer -->
   </body>
+
+  <%# <script src="javascripts/core.min.js"></script> %>
+  <%# <script src="javascripts/thesaas.min.js"></script> %>
+  <%# <script src="javascripts/script.js"></script> %>
 
   <script src="javascripts/core.min.js"></script>
   <script src="javascripts/thesaas.min.js"></script>
   <script src="javascripts/script.js"></script>
+
+  <script src="javascripts/main.bundle.js"></script>
+
+
 
 </html>
 
