@@ -7,7 +7,7 @@ title: Emissary | Coming Soon
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Emissary" %></title>
 
@@ -19,34 +19,34 @@ title: Emissary | Coming Soon
     <link rel="icon" href="images/favicon.png">
 
 
-<!-- Start of Async Drift Code -->
-<script>
-"use strict";
+    <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
 
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('86gknce7egwt');
-</script>
-<!-- End of Async Drift Code -->
+      !function() {
+        var t = window.driftt = window.drift = window.driftt || [];
+        if (!t.init) {
+          if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+          t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+            t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            };
+        }
+      }();
+      drift.SNIPPET_VERSION = '0.3.1';
+      drift.load('86gknce7egwt');
+    </script>
+    <!-- End of Async Drift Code -->
 
   </head>
   <body>
@@ -63,6 +63,23 @@ drift.load('86gknce7egwt');
             <p> We make it easy for you to send appointment reminders, marketing alerts or bulk notifications.
             </p>
 
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="https://Emissary.us18.list-manage.com/subscribe/post?u=537e0505be29bdceb50ce55dc&amp;id=5cbc4217af" class= 'form-glass' method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_537e0505be29bdceb50ce55dc_5cbc4217af" tabindex="-1" value=""></div>
+
+                <div class='field w-half container pt-20' id="mc_embed_signup_scroll">
+
+                  <input type="email" value="" name="EMAIL" class="form-control form-group py-6 form-control-lg" id="mce-EMAIL" placeholder="Your email address" required>
+                  <div class="">
+                    <input type="submit" value="Let me know when its ready" name="subscribe" id="mc-embedded-subscribe" class="btn btn-warning ">
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+
           </div>
         </div>
 
@@ -70,11 +87,11 @@ drift.load('86gknce7egwt');
     </header>
     <!-- END Header -->
 
-  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="javascripts/core.min.js"></script>
-  <script src="javascripts/thesaas.min.js"></script>
-  <script src="javascripts/script.js"></script>
-  <%# <script src="javascripts/main.bundle.js"></script> %>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="javascripts/core.min.js"></script>
+    <script src="javascripts/thesaas.min.js"></script>
+    <script src="javascripts/script.js"></script>
+    <%# <script src="javascripts/main.bundle.js"></script> %>
 
 
   </body>
