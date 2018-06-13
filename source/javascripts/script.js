@@ -12,8 +12,8 @@ $(function() {
   | Read their complete description and modify them based on your need.
   |
   */
- 
-  thesaas.config({
+
+  page.config({
 
     /*
     |--------------------------------------------------------------------------
@@ -61,6 +61,17 @@ $(function() {
 
     /*
     |--------------------------------------------------------------------------
+    | Disable AOS on mobile
+    |--------------------------------------------------------------------------
+    |
+    | If true, the Animate On Scroll animations don't run on mobile devices.
+    |
+    */
+
+    disableAOSonMobile: true,
+
+    /*
+    |--------------------------------------------------------------------------
     | Smooth Scroll
     |--------------------------------------------------------------------------
     |
@@ -68,7 +79,7 @@ $(function() {
     | visitor a better experience for scrolling.
     |
     */
-   
+
     smoothScroll: true,
 
   });
@@ -92,3 +103,4 @@ $(function() {
 
 
 });
+
