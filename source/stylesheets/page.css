@@ -19323,7 +19323,8 @@ body:not(.body-scrolled) .topbar.d-flex ~ .navbar {
   .section > .container-fluid,
   .section > .container-wide {
     position: relative;
-    height: 100%; }
+/*    height: 100%; 
+*/  }
   @media (max-width: 991.98px) {
     .section {
       padding-top: 70px;
